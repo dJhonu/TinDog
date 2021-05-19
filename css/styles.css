@@ -61,17 +61,25 @@ p{
   transform: rotate(25deg);
 }
 
+
+/* feature-settings */
+
 #features{
   text-align: center;
   margin: auto;
+  padding: 7% 15%;
 }
 
 .fas{
   color: #ef8172;
   font-size: 7rem;
-  margin-top: 3rem;
+
   }
 
 .fas:hover{
   color: #ff4c68;
+}
+
+.feature-box{
+  padding: 0 3% 0 3%;
 }
