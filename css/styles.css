@@ -128,4 +128,18 @@ p{
 
 #pricing{
   text-align: center;
+  padding: 100px;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
+
+}
+
+.test {
+display: -webkit-flex;
+display: flex;
+flex-direction: row;
+align-items: stretch;
 }
