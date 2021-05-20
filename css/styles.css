@@ -30,6 +30,8 @@ p{
 #title {
   background-color: #ff4c68;
   color: #fff;
+  /* position: relative; */
+
 }
 
 .container-fluid{
@@ -65,8 +67,12 @@ p{
 /* title image */
 
 .title-image{
-  width: 60%;
+  width: auto;
   transform: rotate(25deg);
+  /* object-fit: scale-down; */
+
+  position: absolute;
+  z-index: 0;
 }
 
 
@@ -74,8 +80,11 @@ p{
 
 #features{
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .icon{
@@ -142,4 +151,16 @@ display: -webkit-flex;
 display: flex;
 flex-direction: row;
 align-items: stretch;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 30px;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+
 }
