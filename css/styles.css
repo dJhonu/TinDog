@@ -21,9 +21,10 @@ h2{
 }
 
 h3{
-  font-family: "Montserrat";
+  font-family: "Montserrat-black";
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  /* color: white; */
 }
 
 p{
@@ -166,6 +167,15 @@ align-items: stretch;
   background-color: #fff;
   text-align: center;
 
+}
+
+.smicons{
+  padding: 10px;
+  letter-spacing: 1.5em;
+}
+
+.truelove{
+  color: white;
 }
 
 @media (max-width: 1028px) {
