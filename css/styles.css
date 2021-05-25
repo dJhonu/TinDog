@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
   font-weight: bold;
 }
@@ -156,7 +156,7 @@ p {
 
 #footer {
   background-color: #fff;
-  padding: 7% 15%;
+  padding: 3% 7%;
 }
 
 .smicons {
@@ -179,4 +179,14 @@ p {
     transform: rotate(0);
   }
 }
+}
+
+/* sections */
+
+.white-section{
+background-color: white;
+}
+
+.color-section{
+background-color: #ff4c68;
 }
