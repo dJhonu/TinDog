@@ -1,8 +1,11 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
 
-
-
-body{
-font-family: Montserrat;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
 }
 
 h1 {
@@ -10,80 +13,77 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+  text-align: left;
 }
 
-h2{
-  font-family: "Montserrat-Bold";
-  font-weight: bold;
+h2 {
   font-size: 3rem;
   line-height: 1.5;
-
 }
 
-h3{
-  font-family: "Montserrat-black";
-  font-weight: bold;
+h3 {
   font-size: 3rem;
-  /* color: white; */
 }
 
-p{
+p {
   color: #8f8f8f;
 }
 
 #title {
   background-color: #ff4c68;
   color: #fff;
-  /* position: relative; */
 
+  /* position: relative; */
+  .bighead {
+    font-family: 'Montserrat-black, sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+  }
 }
 
-.container-fluid{
+.container-fluid {
   padding: 3% 15%;
 }
 
-/* navigationbar */
 
-.navbar{
+
+/* navigationbar */
+.navbar {
   padding: 0 0 4.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: Ubuntu;
   font-size: 2.5rem;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
   font-family: Montserrat-light;
 }
 
 /* download buttons */
-
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* title image */
-
-.title-image{
+.title-image {
   width: auto;
   transform: rotate(25deg);
   /* object-fit: scale-down; */
-
   position: absolute;
   z-index: 0;
 }
 
-
 /* feature-settings */
-
-#features{
-  text-align: center;
+#features {
   /* margin: auto; */
   padding: 7% 15%;
   background-color: white;
@@ -91,101 +91,92 @@ p{
   z-index: 1;
 }
 
-.icon{
+.icon {
   color: #ef8172;
   font-size: 7rem;
   margin-bottom: 1rem;
+}
 
-  }
-
-.icon:hover{
+.icon:hover {
   color: #ff4c68;
 }
 
-.feature-box{
+.feature-box {
   padding: 0 3% 0 3%;
 }
 
-
 /* testimonials */
-
-#testimonials{
+#testimonials {
   padding: 7% 15%;
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
-#press{
+#press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 
 /* pricing */
-
-#pricing{
-  text-align: center;
+#pricing {
   padding: 100px;
-
 }
 
 .pricing-column {
   padding: 3% 2%;
-
 }
 
 .test {
-display: -webkit-flex;
-display: flex;
-flex-direction: row;
-align-items: stretch;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
-#cta{
+#cta {
   background-color: #ff4c68;
-  text-align: center;
-  padding: 30px;
+  /* padding: 30px; */
+  padding: 7% 15%;
 }
 
-#footer{
+#footer {
   background-color: #fff;
-  text-align: center;
-
+  padding: 7% 15%;
 }
 
-.smicons{
+.smicons {
   padding: 10px;
   letter-spacing: 1.5em;
 }
 
-.truelove{
+.truelove {
   color: white;
 }
 
 @media (max-width: 1028px) {
-  #title{
+  #title {
     text-align: center;
   }
-  .title-image{
+
+  .title-image {
     position: static;
     margin: auto;
     transform: rotate(0);
   }
-  }
+}
 }
